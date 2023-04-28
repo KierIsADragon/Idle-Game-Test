@@ -6,16 +6,16 @@ desc:Will add later
 Created:27/4/2023
 Updated:27/4/2023
 
-// first build
-
 settings 
 background:https://64.media.tumblr.com/2bb0575055f1262fe77adbfe536cc64c/886dc8782bb84da7-55/s2048x3072/30242585203521b587edc3a2da8e6dd363a78a65.png
+no bulk particles
 
 Buttons 
 *SelyfStudy
 name:Selyf
 desc:Click on Selyf to gain Study Points!
 on click:yeild 1 StudyPoint
+showclicks
 icon:https://64.media.tumblr.com/2bb0575055f1262fe77adbfe536cc64c/886dc8782bb84da7-55/s2048x3072/30242585203521b587edc3a2da8e6dd363a78a65.png
 
 Resources 
@@ -28,3 +28,35 @@ show earned
 name:Companionship
 desc:your comrodery
 show earned
+
+Buildings
+*StudyNook
+name:Study Nook
+desc:Makes 0.1 study per tick
+on tick:yield 0.1 StudyPoint
+cost:10 StudyPoint
+
+Upgrades
+*Strange
+name:Strange Encounter
+desc:you encountered an odd mage in the woods on your way to the city, what could this encounter hold for your future?
+cost:1 StudyPoint
+shown
+
+Items
+*SkySteelBow
+name:Skysteel Bow
+desc:It's the Skysteel Bow!
+cost:20 companionship
+req:Strange
+passive:multiply yield of Companionship by 2
+
+Shinies
+*FlyingSelyf
+name:It's a Flying Selyf!
+on click:AHHHHHHHHHHHHHH
+icon:https://64.media.tumblr.com/2bb0575055f1262fe77adbfe536cc64c/886dc8782bb84da7-55/s2048x3072/30242585203521b587edc3a2da8e6dd363a78a65.png
+movement:anywhere moveRandom:2
+frequency:2
+frequency variation:5
+
