@@ -14,7 +14,7 @@ Buttons
 *SelyfStudy
 name:Selyf
 desc:Click on this to gain Study Points!
-on click:yeild 1 StudyPoint
+on click:yield 1 StudyPoint
 show clicks
 icon:https://64.media.tumblr.com/2bb0575055f1262fe77adbfe536cc64c/886dc8782bb84da7-55/s2048x3072/30242585203521b587edc3a2da8e6dd363a78a65.png
 
