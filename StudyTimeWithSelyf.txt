@@ -58,9 +58,14 @@ passive:multiply yield of Companionship by 2
 Shinies
 *FlyingSelyf
 name:It's a Flying Selyf!
-on click:toast AHHHHHHHHH
+on click:spawn Scream
 icon:https://64.media.tumblr.com/2bb0575055f1262fe77adbfe536cc64c/886dc8782bb84da7-55/s2048x3072/30242585203521b587edc3a2da8e6dd363a78a65.png
 movement:anywhere moveRandom:2
 frequency:2
 frequency variation:5
 class:bigButton
+*Scream
+no click
+text:AAAHHHHHHHH!!
+duration:5 
+movement:onMouse
