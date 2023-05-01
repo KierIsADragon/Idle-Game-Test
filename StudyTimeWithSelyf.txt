@@ -64,8 +64,16 @@ movement:anywhere moveRandom:2
 frequency:2
 frequency variation:5
 class:bigButton
+
 *Scream
 no click
 text:AAAHHHHHHHH!!
 duration:5 
 movement:onMouse
+class:ShinyText
+
+CSS
+.ShinyText {
+color: white;
+text-shadow: 0px 0px 50px black;
+}
