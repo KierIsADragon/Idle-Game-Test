@@ -66,6 +66,7 @@ frequency variation:5
 class:bigButton
 
 *Scream
+name:AAAHHHHHHHH!!
 no click
 text:AAAHHHHHHHH!!
 duration:5 
@@ -75,5 +76,6 @@ class:ShinyText
 CSS
 .ShinyText {
 color: white;
-text-shadow: 0px 0px 50px black;
+box-shadow: 0 0 10px black;
+text-shadow: 0 0 10px black;
 }
