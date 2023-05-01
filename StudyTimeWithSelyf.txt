@@ -78,4 +78,5 @@ CSS
 color: white;
 box-shadow: 0 0 10px black;
 text-shadow: 0 0 10px black;
+background-color: black;
 }
