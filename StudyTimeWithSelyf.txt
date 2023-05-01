@@ -83,4 +83,5 @@ background-color: black;
   background-image: url(https://64.media.tumblr.com/2bb0575055f1262fe77adbfe536cc64c/886dc8782bb84da7-55/s2048x3072/30242585203521b587edc3a2da8e6dd363a78a65.png);
   background-position: center;
   background-repeat: no-repeat;
+  object-fit: scale-down;
 }
